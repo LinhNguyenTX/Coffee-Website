@@ -20,17 +20,22 @@
                 <!--The nav element defines a set of navigation links:-->
                 <nav>
                     <!--Unorderes list of links-->
-                    <ul>
+                    <ul id="menuNav">
                         <li><a href="Coffee_Shop_Home.html">Home</a></li>
                         <li><a href="Coffee_Shop_Menu.html">Menu</a></li>
                         <li><a href="Coffee_Shop_Contact.html">Contact</a></li>
                         <li><a href="Coffee_Shop_Location.html">Location</a></li>
                     </ul>
+                    
                 </nav>
+                
                 <a class = "cart-icon" href="Coffee_Shop_Cart.html">
                     <img src="cart.jpg" width="40px" height="40px"><span>0</span>
                 </a>
-                <!--fix problem 1 here---> 
+                
+                <img class ="menuIcon" src="menu.jpg" width="40px" height="40px"
+                onclick="menutoggle()">
+
             </div>
         </div>
     </div>
@@ -50,5 +55,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="Cart.js"></script>
+    <script src="header.js"></script>
 </body>
 </html>
